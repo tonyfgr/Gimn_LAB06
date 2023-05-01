@@ -75,7 +75,7 @@
                     </div>
                     <div class="d-grid">
                         <input type="hidden" name="codigo" value="<?php echo $usuarios->id; ?>">
-                        <input type="submit" class="btn btn-primary" value="Editar">
+                        <input type="submit" class="btn btn-outline-dark" value="Editar">
                     </div>
                 </form>
             </div>

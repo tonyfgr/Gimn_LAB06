@@ -1,0 +1,16 @@
+CREATE DATABASE FitPass;
+USE FitPass;
+
+CREATE TABLE Usuarios (
+  id int auto_increment primary key,
+  nombre_completo VARCHAR(100),
+  fecha_de_nacimiento DATE,
+  genero ENUM('Masculino', 'Femenino', 'Otro'),
+  correo_electronico VARCHAR(50),
+  contrasena VARCHAR(50),
+  direccion VARCHAR(100),
+  ciudad VARCHAR(50),
+  estado VARCHAR(50),
+  codigo_postal VARCHAR(10),
+  telefono VARCHAR(20)
+);

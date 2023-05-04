@@ -8,7 +8,7 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="./images/adimg.jpg" class="d-block w-100" alt="adquirir">
+      <img src="./images/gim.jpg" class="d-block w-100" alt="adquirir">
       <div class="carousel-caption d-none d-md-block">
             <h5>Escoge la mejor membresía</h5>
             <p>FitHub te ofrece los mejores precios para ti.</p>

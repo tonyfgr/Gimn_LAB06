@@ -2,7 +2,7 @@
 
 <?php
     if(!isset($_GET['codigo'])){
-        header('Location: index.php?mensaje=error');
+        header('Location: lista.php?mensaje=error');
         exit();
     }
 
@@ -45,7 +45,7 @@
                     </div>
                     <div class="mb-3">
                         <label class="form-label">Contraseña: </label>
-                        <input type="text" class="form-control" name="txtContra" autofocus required
+                        <input type="password" class="form-control" name="txtContra" autofocus required
                         value="<?php echo $usuarios->contrasena; ?>">
                     </div>
                     <div class="mb-3">
@@ -59,7 +59,7 @@
                         value="<?php echo $usuarios->ciudad; ?>">
                     </div>
                     <div class="mb-3">
-                        <label class="form-label">Estado: </label>
+                        <label class="form-label">Distrito: </label>
                         <input type="text" class="form-control" name="txtEstado" autofocus required
                         value="<?php echo $usuarios->estado; ?>">
                     </div>

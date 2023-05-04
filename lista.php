@@ -75,7 +75,7 @@
             <!-- fin alerta -->
             <div class="card">
                 <div class="card-header">
-                    Lista de personas
+                    Lista de Usuarios de FitHUB
                 </div>
                 <div class="p-4">
                     <table class="table align-middle">
@@ -86,10 +86,10 @@
                                 <th scope="col">F. Nacimiento</th>
                                 <th scope="col">Genero</th>
                                 <th scope="col">email</th>
-                                <th scope="col">Contraseña</th>
+                                
                                 <th scope="col">Direccion</th>
                                 <th scope="col">Ciudad</th>
-                                <th scope="col">Estado</th>
+                                <th scope="col">Distrito</th>
                                 <th scope="col">Codigo Postal</th>
                                 <th scope="col">Telefono</th>
                                 <th scope="col" colspan="2">Opciones</th>
@@ -105,8 +105,9 @@
                                 <td scope="row"><?php echo $dato->id; ?></td>
                                 <td><?php echo $dato->nombre_completo; ?></td>
                                 <td><?php echo $dato->fecha_de_nacimiento; ?></td>
+                                <td><?php echo $dato->genero; ?></td>
                                 <td><?php echo $dato->correo_electronico; ?></td>
-                                <td><?php echo $dato->contrasena; ?></td>
+                                
                                 <td><?php echo $dato->direccion; ?></td>
                                 <td><?php echo $dato->ciudad; ?></td>
                                 <td><?php echo $dato->estado ; ?></td>

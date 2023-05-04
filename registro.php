@@ -24,7 +24,7 @@
                     </div>
                     <div class="mb-3">
                         <label class="form-label">Contraseña: </label>
-                        <input type="text" class="form-control" name="txtContra" autofocus required>
+                        <input type="password" class="form-control" name="txtContra" autofocus required>
                     </div>
                     <div class="mb-3">
                         <label class="form-label">Direccion: </label>
@@ -35,7 +35,7 @@
                         <input type="text" class="form-control" name="txtCiudad" autofocus required>
                     </div>
                     <div class="mb-3">
-                        <label class="form-label">Estado: </label>
+                        <label class="form-label">Distrito: </label>
                         <input type="text" class="form-control" name="txtEstado" autofocus required>
                     </div>
                     <div class="mb-3">
